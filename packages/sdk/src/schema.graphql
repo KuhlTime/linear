@@ -8099,6 +8099,10 @@ input IssueCreateInput {
   The title of the issue.
   """
   title: String
+  """
+  The completion timestamp
+  """
+  completedAt: DateTime
 }
 
 """

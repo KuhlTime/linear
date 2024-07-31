@@ -4832,6 +4832,8 @@ export type IssueCreateInput = {
   templateId?: Maybe<Scalars["String"]>;
   /** The title of the issue. */
   title?: Maybe<Scalars["String"]>;
+  /** The completion timestamp */
+  completedAt?: Maybe<Scalars["DateTime"]>;
 };
 
 /** [Internal] A draft issue. */
